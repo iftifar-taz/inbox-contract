@@ -18,7 +18,7 @@ beforeEach(async () => {
     accounts = await web3.eth.getAccounts();
 
     //Use one of the accounts to deploy contract
-    inbox = await new web3.eth.Contract(JSON.parse(interface)).deploy({
+    inbox = await new web3.eth.Contract(interface).deploy({
         data: bytecode,
         arguments: [INITIAL_MESSAGE]
     }).send({
