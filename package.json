@@ -11,10 +11,15 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"ganache-cli": "^6.2.3",
-		"mocha": "^5.2.0",
-		"solc": "^0.5.1",
-		"truffle-hdwallet-provider": "0.0.6",
-		"web3": "^1.0.0-beta.37"
+		"@truffle/hdwallet-provider": "^1.0.21",
+		"ganache-cli": "^6.7.0",
+		"mocha": "^6.2.1",
+		"node-gyp": "^5.0.3",
+		"solc": "^0.5.12",
+		"web3": "^1.2.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/iftifar-taz/inbox-contract.git"
 	}
 }
